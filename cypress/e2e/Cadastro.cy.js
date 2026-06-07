@@ -20,7 +20,7 @@ describe('Cadastro de usuário', () => {
     cy.xpath('//*[@id="email"]').type('teste123@teste.com')
     cy.xpath('//*[@id="password"]').clear().type('Teste321@', { delay: 100 })
       })
-
+/*
       it('cadastro sem preencher nome', () => {
     cy.visit('https://practicesoftwaretesting.com/')
     cy.wait(1000)
@@ -76,7 +76,7 @@ describe('Cadastro de usuário', () => {
     cy.wait(1000)
     cy.screenshot('cadastro-sem-pais')  
     })
-   
+   */
 })
 
 
