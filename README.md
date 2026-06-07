@@ -100,5 +100,10 @@ project-root/
 ├── package.json
 └── README.md
 ```
+# 👨‍💻 Autor
 
+**João Manoel**
+QA Manual | Em transição para a área de tecnologia
+
+[LinkedIn](www.linkedin.com/in/joão-ribeiro-32a90b352) • [GitHub](https://github.com/joaosouzar)
 
