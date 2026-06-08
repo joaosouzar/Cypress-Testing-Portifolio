@@ -35,7 +35,6 @@ Exemplos de validações:
 * Validação de textos
 * Validação de URL
 * Validação de dados de produtos
-* Atualização do carrinho
 * Navegação entre páginas
 
 Exemplo:
@@ -43,9 +42,11 @@ Exemplo:
 ```javascript id="9kq2vx"
 cy.contains('Hammer').should('be.visible')
 
-cy.url().should('include', '/product')
+cy.url().should('include', ''https://practicesoftwaretesting.com/account'')
 
-cy.get('[data-test="cart-quantity"]').should('contain', '1')
+cy.xpath('//*[@id="first_name-error"]/div').first()
+    .should('be.visible')
+    .and('contain', 'First name is required')
 ```
 
 
@@ -78,11 +79,7 @@ project-root/
 │   ├── fixtures/
 │   │
 │   ├── screenshots/
-│   │   └── Evidências de execução dos testes
-│   │
-│   ├── support/
-│       ├── commands.js
-│       └── e2e.js
+│   │   └── Evidências de execução dos teste
 │
 ├── docs/
 │   ├── Casos-de-Teste/
@@ -103,7 +100,7 @@ project-root/
 # 👨‍💻 Autor
 
 **João Manoel**
-QA Manual | Em transição para a área de tecnologia
+QA Tester
 
 [LinkedIn](www.linkedin.com/in/joão-ribeiro-32a90b352) • [GitHub](https://github.com/joaosouzar)
 
