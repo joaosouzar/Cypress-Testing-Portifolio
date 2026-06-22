@@ -46,9 +46,7 @@ describe('Cadastro de usuário', () => {
     .should('be.visible')
     .and('contain', 'First name is required')
     cy.wait(1000)
-    cy.screenshot('cadastro-sem-nome')
-    
-  })
+    })
 
   it('cadastro sem preencher país', () => {
     cy.visit('https://practicesoftwaretesting.com/')
@@ -73,8 +71,7 @@ describe('Cadastro de usuário', () => {
     cy.xpath('//*[@id="country-error"]/div').first()
     .should('be.visible')
     .and('contain', 'Country is required')
-    cy.wait(1000)
-    cy.screenshot('cadastro-sem-pais')  
+    cy.wait(1000) 
     })
    
 })
