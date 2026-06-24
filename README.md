@@ -71,28 +71,25 @@ project-root/
 │
 ├── cypress/
 │   ├── e2e/
-│   │   ├── product-search.cy.js
-│   │   ├── product-filter.cy.js
-│   │   ├── cart.cy.js
-│   │   └── checkout.cy.js
-│   │
+│   │   ├── cadastro.cy.js
+│   │   ├── checkout.cy.js
+│   │   ├── login.cy.js
+│   │   └── produtos.cy.js
+│   │ 
 │   ├── fixtures/
 │   │
-│   ├── screenshots/
-│   │   └── Evidências de execução dos teste
+│   ├── Reports/html
+│   │   ├── screenshots
+│   │   ├── videos
+│   │   └── index.htm
+│   │
+│   └── screenshots/
+│       └── Evidências de execução dos teste
 │
 ├── docs/
 │   ├── Casos-de-Teste/
 │   └── Exportações-Confluence/
-│
-├── reports/
-│   ├── mochawesome/
-│   └── relatórios-de-execução/
-│
-├── evidence/
-│   ├── screenshots/
-│   └── resultados-de-execução/
-│
+|
 ├── cypress.config.js
 ├── package.json
 └── README.md
